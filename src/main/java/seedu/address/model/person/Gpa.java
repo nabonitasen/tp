@@ -9,7 +9,8 @@ import static seedu.address.commons.util.AppUtil.checkArgument;
  */
 public class Gpa implements Comparable<Gpa> {
 
-    public static final String MESSAGE_CONSTRAINTS = "Gpa can take values from 0.00 to 5.00, and cannot be blank";
+    public static final String MESSAGE_CONSTRAINTS = "Gpa can take values from 0.00 to 5.00 up to 2 decimal places, " +
+            "and cannot be blank";
 
     public final double value;
 
@@ -28,7 +29,14 @@ public class Gpa implements Comparable<Gpa> {
      * Returns true if a given double is a valid Gpa.
      */
     public static boolean isValidGpa(double test) {
-        return test >= 0.0 && test <= 5.0;
+        if (test < 0.0 || test > 5.0) {
+            return false;
+        }
+
+        double testTimesTen= test * 10.0;
+        double testTimesHundred = test * 100.0;
+        return (testTimesHundred == (int) testTimesHundred || testTimesTen == (int) testTimesTen
+                || test == (int) test);
     }
 
     /**
