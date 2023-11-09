@@ -40,7 +40,7 @@
   }, {
     "studentNo": "A0348574E",
     "name" : "Elle Meyer",
-    "phone" : "9482224",
+    "phone" : "94827224",
     "email" : "werner@example.com",
     "gpa" : "1.0",
     "previousGrade": "A+",
@@ -49,7 +49,7 @@
   }, {
     "studentNo": "A0434534C",
     "name" : "Fiona Kunz",
-    "phone" : "9482427",
+    "phone" : "94823427",
     "email" : "lydia@example.com",
     "gpa" : "2.0",
     "previousGrade": "A+",
@@ -58,7 +58,7 @@
   }, {
     "studentNo": "A0483728F",
     "name" : "George Best",
-    "phone" : "9482442",
+    "phone" : "94824342",
     "email" : "anna@example.com",
     "gpa" : "4.0",
     "previousGrade": "A+",

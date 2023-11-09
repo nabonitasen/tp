@@ -77,7 +77,7 @@ public class TypicalPersons {
     public static final Person ELLE = new PersonBuilder()
             .withStudentNumber("A0348574E")
             .withName("Elle Meyer")
-            .withPhone("9482224")
+            .withPhone("94827224")
             .withEmail("werner@example.com")
             .withGpa(1.0)
             .withPreviousGrade("A+")
@@ -87,7 +87,7 @@ public class TypicalPersons {
     public static final Person FIONA = new PersonBuilder()
             .withStudentNumber("A0434534C")
             .withName("Fiona Kunz")
-            .withPhone("9482427")
+            .withPhone("94823427")
             .withEmail("lydia@example.com")
             .withGpa(2.0)
             .withPreviousGrade("A+")
@@ -97,7 +97,7 @@ public class TypicalPersons {
     public static final Person GEORGE = new PersonBuilder()
             .withStudentNumber("A0483728F")
             .withName("George Best")
-            .withPhone("9482442")
+            .withPhone("94824342")
             .withEmail("anna@example.com")
             .withGpa(4.0)
             .withPreviousGrade("A+")
@@ -107,11 +107,11 @@ public class TypicalPersons {
 
     // Manually added
     public static final Person HOON = new PersonBuilder().withStudentNumber("A0348483G").withName("Hoon Meier")
-            .withPhone("8482424").withEmail("stefan@example.com").withGpa(0.1)
+            .withPhone("84823424").withEmail("stefan@example.com").withGpa(0.1)
             .withAttachments().build();
 
     public static final Person IDA = new PersonBuilder().withStudentNumber("A3974743C").withName("Ida Mueller")
-            .withPhone("8482131").withEmail("hans@example.com").withGpa(0.5)
+            .withPhone("84832131").withEmail("hans@example.com").withGpa(0.5)
             .withAttachments().build();
 
     // Manually added - Person's details found in {@code CommandTestUtil}
